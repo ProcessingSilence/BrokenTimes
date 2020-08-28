@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a91fc55b-cd9c-4fa2-b66f-c9d0e3ce37e7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnBars.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CloseCall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instructions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/tvImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BladeHitbox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sawblade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadeImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SurpriseMissiles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Missile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa17532.31269/CameraController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Clock/ClockParticle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa17532.33184/GOAL.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Clock/ClockHands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsPlayerDead.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Clock/ClockMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa17532.35968/MainGameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Clock/Goal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/Block.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CamObjScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CamMain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BlockManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Clock/ParticleSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/CamMain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Block.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sawblade.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClockMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Goal.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClockHands.cs" />
+        <option value="$PROJECT_DIR$/Assets/CamObjScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/GoalParticles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Clock/ParticleSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Clock/ClockParticle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/tvImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/Block.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instructions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CloseCall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SurpriseMissiles.cs" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa17532.35968/MainGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FadeImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnBars.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Clock/ClockHands.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Missile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FollowScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BlockManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IsPlayerDead.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Clock/Goal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CamObjScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainSceneManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fgOUBSpD3zhkpzDM1sfxFvz53d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a91fc55b-cd9c-4fa2-b66f-c9d0e3ce37e7" name="Default Changelist" comment="" />
+      <created>1596636283894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596636283894</updated>
+      <workItem from="1596636327815" duration="37832000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="519" y="58" key="SettingsEditor" timestamp="1596856751110">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="519" y="58" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1596856751110" />
+    <state x="478" y="0" width="644" height="860" key="find.popup" timestamp="1596636880525">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="478" y="0" width="644" height="860" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1596636880525" />
+    <state x="456" y="190" key="run.anything.popup" timestamp="1596739145156">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1596739145156" />
+  </component>
+</project>
