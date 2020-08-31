@@ -30,7 +30,7 @@ public class FadeImage : MonoBehaviour
         for (int i = 0; i < 10; i++)
         {
             image.color += new Color(0,0,0,0.1f * negOrPos);
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSecondsRealtime(0.01f);
         }
         FadeInOrOut = 0;
         isFading = false;

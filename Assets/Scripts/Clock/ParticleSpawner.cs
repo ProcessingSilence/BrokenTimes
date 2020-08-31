@@ -49,7 +49,7 @@ public class ParticleSpawner : MonoBehaviour
     
     IEnumerator ParticleIteration()
     {
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSecondsRealtime(0.01f);
         if (CamObjScript.TimeSpeed.timeSpeed > 0)
         {
             currentOffset = 0;

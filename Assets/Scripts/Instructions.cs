@@ -42,16 +42,16 @@ public class Instructions : MonoBehaviour
 
     IEnumerator Transition()
     {
-        yield return new WaitForSeconds(1.8f);
+        yield return new WaitForSecondsRealtime(1.8f);
         for (int i = 0; i < alphaAmt.Length; i++)
         {
             Debug.Log("Line " + i);
             while (lines[i].color.a < 1)
             {
                 lines[i].color += new Color(0, 0, 0, .1f);
-                yield return new WaitForSeconds(0.05f);
+                yield return new WaitForSecondsRealtime(0.05f);
             }
-            yield return new WaitForSeconds(waitTime[i]);
+            yield return new WaitForSecondsRealtime(waitTime[i]);
             Debug.Log("WaitDone");
         }
     }

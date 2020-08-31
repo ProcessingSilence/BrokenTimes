@@ -41,23 +41,23 @@ public class tvImage : MonoBehaviour
         // Flashing pause effect to indicate time left being paused.
         if (my_CamObjScript.pauseWaitTime > 0)
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSecondsRealtime(0.5f);
             while (my_CamObjScript.pauseWaitTime <= 4.5f && my_CamObjScript.pauseWaitTime > 1.6f)
             {
                 isActive = !isActive;
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSecondsRealtime(0.5f);
             }
             isActive = true;
             while (my_CamObjScript.pauseWaitTime <= 1.6f && my_CamObjScript.pauseWaitTime > 0)
             {
                 isActive = !isActive;
-                yield return new WaitForSeconds(0.05f);
+                yield return new WaitForSecondsRealtime(0.05f);
             }
         }
         
         if (isActive == false)
             isActive = true;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSecondsRealtime(0.1f);
         StartCoroutine(Iteration());
     }
 }

@@ -81,7 +81,7 @@ public class ClockParticle : MonoBehaviour
 
     private IEnumerator DestroyTimeIncrement()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSecondsRealtime(0.1f);
         timeExisting += 0.1f * CamObjScript.TimeSpeed.timeSpeed;
         StartCoroutine(DestroyTimeIncrement());
     }
@@ -99,7 +99,7 @@ public class ClockParticle : MonoBehaviour
         if (CamObjScript.TimeSpeed.timeSpeed < 0)
             DestroyAtZeroPosition();
         
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSecondsRealtime(0.01f);
         
         // Rotation increment
         transform.Rotate(0, 0, randomRotation * CamObjScript.TimeSpeed.timeSpeed*Time.deltaTime);

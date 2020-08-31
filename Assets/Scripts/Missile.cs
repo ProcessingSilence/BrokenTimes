@@ -21,9 +21,14 @@ public class Missile : MonoBehaviour
     public AudioClip[] audioClips;
 
     private ParticleSystem particleSystem;
+
+    public float divisionAmount;
+
+    private Rigidbody2D rb;
     // Start is called before the first frame update
     void Awake()
     {
+        rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = audioClips[0];
@@ -74,8 +79,8 @@ public class Missile : MonoBehaviour
 
     IEnumerator Movement()
     {
-        yield return new WaitForSeconds(0.01f);
-        transform.Translate(speed * CamObjScript.TimeSpeed.timeSpeed * Time.deltaTime,0,0);
+        yield return new WaitForSecondsRealtime(0.01f);
+        rb.velocity = new Vector2(speed * CamObjScript.TimeSpeed.timeSpeed/divisionAmount,0);
         StartCoroutine(Movement());
     }
 

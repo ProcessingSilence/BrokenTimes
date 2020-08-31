@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2017641643167910529}
   - component: {fileID: 2017641643167910530}
   - component: {fileID: 2017641643167910534}
+  - component: {fileID: 5169893779354630989}
   m_Layer: 0
   m_Name: Missile
   m_TagString: Untagged
@@ -5089,3 +5090,25 @@ MonoBehaviour:
   audioClips:
   - {fileID: 8300000, guid: 60085df0bc680b744bfbab8a19fd9839, type: 3}
   - {fileID: 8300000, guid: 6829c292177754048867ea0c4fb8e5d4, type: 3}
+  divisionAmount: 0
+--- !u!50 &5169893779354630989
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017641643167910535}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

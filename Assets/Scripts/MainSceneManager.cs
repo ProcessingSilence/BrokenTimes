@@ -66,18 +66,18 @@ public class MainSceneManager : MonoBehaviour
     
     IEnumerator Fading(float negOrPos)
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSecondsRealtime(0.2f);
         for (int i = 0; i < 10; i++)
         {
             fadeImage.color += new Color(0,0,0,0.1f * negOrPos);
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSecondsRealtime(0.01f);
         }
         //Debug.Log(fadeImage.color.a);
     }
 
     IEnumerator ChangeLevel()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         StartCoroutine(Fading(1));
         if (fadeImage.color.a > 1)
         {
